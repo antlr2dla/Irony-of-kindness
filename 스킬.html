@@ -19,6 +19,20 @@
       .active {
         color:blue;
       }
+      .테두리 {
+        border:5px solid gray;
+        display: grid;
+        grid-template-columns: 400px 1fr 400px;
+        margin-left: 200px; margin-right: 200px;
+      }
+      .login {
+        border:5px solid red;
+        display: grid;
+      }
+      .ad, .some {
+        border:5px solid black;
+        display: grid;
+      }
     </style>
       <head>
         <meta charset="utf-8">
@@ -31,14 +45,20 @@
           <a href="스킬.html"title="스킬 및 스탯"class="active">스킬 및 스탯</a>
           <a href="프로필.html"title=프로필>프로필</a>
         </h1>
-    <ol>
-      <li>레벨</li>
-      <li>체력</li>
-      <li>방어력</li>
-      <li>공격력</li>
-      <li>민첩성</li>
-      <li>지성</li>
-      <li>재력</li>
-    </ol>
+        <div class="테두리">
+          <div class="login">개인 프로필</div>
+          <div class="ad">스탯
+            <ol>
+              <li>레벨</li>
+              <li>체력</li>
+              <li>방어력</li>
+              <li>공격력</li>
+              <li>민첩성</li>
+              <li>지성</li>
+              <li>재력</li>
+            </ol>
+          </div>
+          <div class="some">스킬</div>
+        </div>
   </body>
 </html>

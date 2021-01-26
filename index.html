@@ -19,6 +19,22 @@
     margin-left:auto;
     margin-right:auto;
   }
+  .테두리 {
+    border:5px solid gray;
+    display: grid;
+    grid-template-columns: 400px 1fr 400px;
+    margin-left: 200px; margin-right: 200px;
+  }
+  .login {
+    border:5px solid red;
+    display: grid;
+    width: 150px; height: 150px;
+    margin-top: 20px; margin-left: 40px;
+  }
+  .ad, .some {
+    border:5px solid black;
+    display: grid;
+  }
 </style>
   <head>
     <meta charset="utf-8">
@@ -31,6 +47,10 @@
       <a href="스킬.html"title="스킬 및 스탯">스킬 및 스탯</a>
       <a href="프로필.html"title=프로필>프로필</a>
     </h1>
-    <p> <img src="코딩독.jpg" alt="열심히 코딩하는 개"></p>
+    <div class="테두리">
+      <div class="login">로그인</div>
+      <div class="ad"><img src="코딩독.jpg" alt="열심히 코딩하는 개"></div>
+      <div class="some">무언가</div>
+    </div>
   </body>
 </html>

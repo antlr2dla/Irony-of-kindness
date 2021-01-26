@@ -19,6 +19,31 @@
       .active {
         color:blue;
       }
+      .테두리 {
+        border:5px solid gray;
+        display: grid;
+        grid-template-columns: 400px 1fr 400px;
+        margin-left: 150px; margin-right: 150px;
+      }
+      .login {
+        border:5px solid red;
+        display: grid;
+        grid-template-rows: 400px 200px;
+      }
+      .ad {
+        border:5px solid black;
+        display: grid;
+        width: 740px; height: 640px;
+      }
+      .some {
+        border:5px solid black;
+        display: grid;
+      }
+      .cat {
+        display: block;
+        border-top: 5px solid blue;
+        height: fit-content; width: inherit;
+      }
     </style>
       <head>
         <meta charset="utf-8">
@@ -31,6 +56,13 @@
           <a href="스킬.html"title="스킬 및 스탯">스킬 및 스탯</a>
           <a href="프로필.html"title=프로필>프로필</a>
         </h1>
-    <img src="조사 및 전투.png" style="width:1000px; height:600px;">
+    <div class="테두리">
+      <div class="login">로그인</div>
+        <div class="ad">
+          <img src="코딩독.jpg" alt="열심히 코딩하는 개">
+          <img src="메롱냥.jpg" alt="놀리는 고양이" class="cat">
+        </div>
+      <div class="some">무언가</div>
+    </div>
   </body>
 </html>
